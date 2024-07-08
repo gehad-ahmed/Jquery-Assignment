@@ -1,0 +1,211 @@
+*{
+    --main-color:#D62E33;
+    padding:0;
+    margin:0
+}
+/* HEADER */
+
+header{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+}
+.home-overlay{
+    background-color:rgba(214, 46, 51 , 0.6)
+}
+
+header .title{
+    position:absolute;
+    z-index: 999;
+    text-align:center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+header .title h1{
+    font-size: 60px;
+}
+
+header .open-section{
+    position: relative;
+}
+header .icon-open{
+    position: absolute;
+    top:60%;
+    left:0;
+    z-index: 999;
+    font-size:30px;
+    cursor: pointer;
+}
+header .icon-open i{
+    font-size:25px
+}
+
+header .nav{
+    position:relative;
+    z-index: 99999;
+    width:250px;
+    height:100vh;
+    padding:20px;
+    left:-250px;
+}
+header .nav .close-icon{
+    position:absolute;
+    right:25px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: color 0.8s;
+    -webkit-transition: color 0.8s;
+    -moz-transition: color 0.8s;
+    -ms-transition: color 0.8s;
+    -o-transition: color 0.8s;
+}
+header .nav .close-icon:hover{
+    color:var(--main-color)
+}
+header .nav ul{
+    position:absolute;
+    top:100px;
+}
+header .nav ul li a.nav-link{
+    font-size:25px;
+    margin-bottom:40px;
+    display:block;
+    transition:color 0.6s;
+    -webkit-transition:color 0.6s;
+    -moz-transition:color 0.6s;
+    -ms-transition:color 0.6s;
+    -o-transition:color 0.6s;
+}
+header .nav ul li a.nav-link:hover{
+    color:var(--main-color)  !important;
+    
+}
+
+
+
+/* SECTION 2 */
+section .details .section1{
+    
+    width:50%;
+    margin-inline:auto;
+ 
+}
+section .details h2{
+    background-color: rgba(214, 46, 51 , 0.6);
+    color:#fff;
+    cursor: pointer;
+    margin-bottom: 0;
+    padding-block: 10px;
+}
+section .details p{
+    background-color:#CCCCCC;
+    padding:10px;
+    margin-bottom:0;
+    position:relative;
+
+}
+
+
+
+
+/* SECTION 3 */
+section#duration{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position:relative;
+    padding-block:50px;
+
+}
+section#duration .overlay{
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:rgba(214, 46, 51 , 0.6)
+}
+section#duration .card {
+    color:#fff;
+    background-color:transparent;
+    border:1px solid #fff;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    padding-block:50px
+}
+
+
+
+
+
+
+
+
+
+/* CONTACT US */
+
+.contact-us h2{
+    font-size:35px
+}
+.contact-us p,.contact-us li {
+    color:#777;
+    
+}
+
+.contact-us li.second-list span{ 
+    color:var(--main-color)
+}
+
+.contact-us .contact-us-icons .icon{
+    color:#777;
+    width:40px;
+    height:40px;
+    border:1px solid #999;
+    padding:5px;
+    margin-inline:7px;
+    text-align: center;
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+}
+.contact-us .contact-us-icons .icon:hover{
+    color:#fff;
+    background-color:var(--main-color)
+}
+.contact-us .form input{
+    margin-bottom:15px;
+    border-radius:0;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    -ms-border-radius:0;
+    -o-border-radius:0;
+}
+.contact-us .form textarea{
+    height: 200px;
+}
+.contact-us .form .msg span{
+    color:var(--main-color)
+}
+.contact-us .form button{
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    padding-block:10px;
+    padding-inline: 20px;
+}
